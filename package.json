@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/SuzeJan/resume/issues"
   },
-  "homepage": "https://github.com/SuzeJan/resume#readme"
+  "homepage": "https://github.com/SuzeJan/resume#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.2",
+    "gulp-less": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.1"
+  }
 }

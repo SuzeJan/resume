@@ -1,0 +1,81 @@
+@mediumspringgreen: #00FA9A;
+
+.clearfix:after,
+.clearfix:before {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.section-wrapper {
+    .container {
+        width: 760px;
+        min-width: 760px;
+        margin: auto;
+    }
+
+    .section1 {
+        .title {
+            position: relative;
+            top: 30%;
+            font-size: 100px;
+            text-align: center;
+            color: @mediumspringgreen;
+        }
+    }
+
+    .section2 {
+        padding-top: 100px;
+        text-align: center;
+
+        .head {
+            .my-avator {
+                width: 160px;
+                height: 160px;
+                border-radius: 50%;
+                border: 3px solid #ccc;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 10px;
+                overflow: hidden;
+                box-sizing: border-box;
+            }
+
+            .logion,
+            .my-name {
+                margin-bottom: 4px;
+            }
+        }
+
+        .main {
+            width: 100%;
+            text-align: left;
+
+            .contact {
+                float: left;
+                vertical-align: top;
+            }
+
+            .intro {
+                float: right;
+                vertical-align: top;
+            }
+        }
+    }
+
+    .section3 {
+        .skill-wrapper {
+            .skill-item {
+                width: 25%;
+                float: left;
+            }
+        }
+    }
+}

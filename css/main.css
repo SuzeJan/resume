@@ -1,0 +1,58 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+.section-wrapper .container {
+  width: 760px;
+  min-width: 760px;
+  margin: auto;
+}
+.section-wrapper .section1 .title {
+  position: relative;
+  top: 30%;
+  font-size: 100px;
+  text-align: center;
+  color: #00FA9A;
+}
+.section-wrapper .section2 {
+  padding-top: 100px;
+  text-align: center;
+}
+.section-wrapper .section2 .head .my-avator {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.section-wrapper .section2 .head .logion,
+.section-wrapper .section2 .head .my-name {
+  margin-bottom: 4px;
+}
+.section-wrapper .section2 .main {
+  width: 100%;
+  text-align: left;
+}
+.section-wrapper .section2 .main .contact {
+  float: left;
+  vertical-align: top;
+}
+.section-wrapper .section2 .main .intro {
+  float: right;
+  vertical-align: top;
+}
+.section-wrapper .section3 .skill-wrapper .skill-item {
+  width: 25%;
+  float: left;
+}
